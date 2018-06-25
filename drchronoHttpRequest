@@ -1,0 +1,25 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+public class drchronoHttpRequest {
+  // TODO: Private Static Fields
+  
+  public static void main(String[] args) throws IOException {
+    sendGET();
+    System.out.println("GET DONE");
+    sendPOST();
+    System.out.println("POST DONE");
+  }
+  
+  private static void sendGET() throws IOException {
+    //TODO: All of it
+  }
+  
+  private static void sendPOST() throws IOException {
+    //TODO: All of it
+  }
+}
